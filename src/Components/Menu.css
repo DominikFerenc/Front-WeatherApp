@@ -1,0 +1,67 @@
+
+
+* {
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+    color:black;
+
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height:100%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+.logo {
+    color: black;
+    letter-spacing: 5px;
+    font-size: 20px;
+}   
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+
+}
+
+li a {
+    font-size: 2rem;
+
+    
+    
+}
+
+li {
+
+}
+
+ul li {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+
+}
+
+
+.SearchBar {
+    width: 30%;
+    align-self: center;
+}
+
