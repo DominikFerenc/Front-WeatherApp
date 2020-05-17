@@ -1,13 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import "./GridPanels.css";
 
+let time = new Date().toLocaleDateString();
+
  const GridPanels = () => {
+
+
     return (
 
        <div className="container">
       <div className="bg1">
-        <h2>12:24 <span><i class="far fa-clock"></i></span></h2>
+        <h2>12:24 {time } <span><i class="far fa-clock"></i></span></h2>
       </div>
       <div className="bg1">
         <h2><i className="fas fa-battery-three-quarters"></i></h2>
