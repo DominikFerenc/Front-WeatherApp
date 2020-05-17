@@ -1,21 +1,22 @@
 import React, {useState} from 'react'
 
 import "./GridPanels.css";
+import Time from './TimeComponent';
+import Geolocation from './Geolocation';
 
-let time = new Date().toLocaleDateString();
+
 
  const GridPanels = () => {
-
 
     return (
 
        <div className="container">
       <div className="bg1">
-        <h2>12:24 {time } <span><i class="far fa-clock"></i></span></h2>
+        <h2> <Time/> <i class="far fa-clock"></i></h2>
       </div>
       <div className="bg1">
-        <h2><i className="fas fa-battery-three-quarters"></i></h2>
-        <p>Respiration</p>
+       <Geolocation/>
+        <p>Geo</p>
       </div>
       <div className="bg2">
         <h2><i class="fas fa-sun"></i></h2>
